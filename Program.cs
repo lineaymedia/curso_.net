@@ -42,13 +42,18 @@ namespace Test1_sumas
             Console.WriteLine("\nSobrecarga dos");
             int dividiendo = division(100, 10, 5);
             Console.WriteLine(dividiendo);
+
             int dividiendo2 = division(10, 2);
             Console.WriteLine(dividiendo);
+
             int dividiendo3 = division("Test sobrecarga", 3);
             Console.WriteLine(dividiendo);
 
             //int dividiendo = division(100, 10, 5);
             //Console.WriteLine(dividiendo);
+
+            double dividiendo5 = division(100, 11);
+            Console.WriteLine(dividiendo);
 
             //Calculo del area
 
@@ -112,6 +117,11 @@ namespace Test1_sumas
         public static int division(string a ,int b)
         {
             return b;
+        }
+
+        public static double division(double a, double b)
+        {
+            return (a / b);
         }
     }
 }
