@@ -28,6 +28,7 @@ namespace Sobrecarga
             Console.WriteLine("Concatenacion de nombre y apellido " + p.Sumar("Javier", " Prada"));
             Console.WriteLine("Altura es: " + p.altura);
             Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }
