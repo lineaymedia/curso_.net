@@ -1,0 +1,7 @@
+C:\Users\dcm\source\repos\EjercicioJerarquiaClases\EjercicioJerarquiaClases\bin\Debug\EjercicioJerarquiaClases.exe.config
+C:\Users\dcm\source\repos\EjercicioJerarquiaClases\EjercicioJerarquiaClases\bin\Debug\EjercicioJerarquiaClases.exe
+C:\Users\dcm\source\repos\EjercicioJerarquiaClases\EjercicioJerarquiaClases\bin\Debug\EjercicioJerarquiaClases.pdb
+C:\Users\dcm\source\repos\EjercicioJerarquiaClases\EjercicioJerarquiaClases\obj\Debug\EjercicioJerarquiaClases.csprojAssemblyReference.cache
+C:\Users\dcm\source\repos\EjercicioJerarquiaClases\EjercicioJerarquiaClases\obj\Debug\EjercicioJerarquiaClases.csproj.CoreCompileInputs.cache
+C:\Users\dcm\source\repos\EjercicioJerarquiaClases\EjercicioJerarquiaClases\obj\Debug\EjercicioJerarquiaClases.exe
+C:\Users\dcm\source\repos\EjercicioJerarquiaClases\EjercicioJerarquiaClases\obj\Debug\EjercicioJerarquiaClases.pdb
