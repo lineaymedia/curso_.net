@@ -1,0 +1,11 @@
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/obj/Debug/netcoreapp2.1/JerarquiaClases.csprojAssemblyReference.cache
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/obj/Debug/netcoreapp2.1/JerarquiaClases.csproj.CoreCompileInputs.cache
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/obj/Debug/netcoreapp2.1/JerarquiaClases.AssemblyInfoInputs.cache
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/obj/Debug/netcoreapp2.1/JerarquiaClases.AssemblyInfo.cs
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/bin/Debug/netcoreapp2.1/JerarquiaClases.deps.json
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/bin/Debug/netcoreapp2.1/JerarquiaClases.runtimeconfig.json
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/bin/Debug/netcoreapp2.1/JerarquiaClases.runtimeconfig.dev.json
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/bin/Debug/netcoreapp2.1/JerarquiaClases.dll
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/bin/Debug/netcoreapp2.1/JerarquiaClases.pdb
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/obj/Debug/netcoreapp2.1/JerarquiaClases.dll
+/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/obj/Debug/netcoreapp2.1/JerarquiaClases.pdb
