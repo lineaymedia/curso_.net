@@ -1,0 +1,7 @@
+C:\Users\net\source\repos\ConsoleVehiculos\ConsoleVehiculos\obj\Debug\ConsoleVehiculos.csprojAssemblyReference.cache
+C:\Users\net\source\repos\ConsoleVehiculos\ConsoleVehiculos\obj\Debug\ConsoleVehiculos.csproj.CoreCompileInputs.cache
+C:\Users\net\source\repos\ConsoleVehiculos\ConsoleVehiculos\bin\Debug\ConsoleVehiculos.exe.config
+C:\Users\net\source\repos\ConsoleVehiculos\ConsoleVehiculos\bin\Debug\ConsoleVehiculos.exe
+C:\Users\net\source\repos\ConsoleVehiculos\ConsoleVehiculos\bin\Debug\ConsoleVehiculos.pdb
+C:\Users\net\source\repos\ConsoleVehiculos\ConsoleVehiculos\obj\Debug\ConsoleVehiculos.exe
+C:\Users\net\source\repos\ConsoleVehiculos\ConsoleVehiculos\obj\Debug\ConsoleVehiculos.pdb
