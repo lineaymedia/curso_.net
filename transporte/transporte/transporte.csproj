@@ -37,6 +37,7 @@
     <Compile Include="Coche.cs" />
     <Compile Include="Barco.cs" />
     <Compile Include="Patinete.cs" />
+    <Compile Include="Vehiculo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

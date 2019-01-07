@@ -2,33 +2,12 @@
 namespace transporte
 {
     // Creando la clase Barco
-    public class Barco
+    public class Barco : Vehiculo
     {
         private int numHelices;
         private int eslora;
 
-        public int NumHelices
-        {
-            get
-            {
-                return this.numHelices;
-            }
-            set
-            {
-                this.numHelices = value;
-            }
-        }
-
-        public int Eslora
-        {
-            get
-            {
-                return this.eslora;
-            }
-            set
-            {
-                this.eslora = value;
-            }
-        }
+        public int NumHelices { get => numHelices; set => numHelices = value; }
+        public int Eslora { get => eslora; set => eslora = value; }
     }
 }

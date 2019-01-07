@@ -2,7 +2,7 @@
 namespace transporte
 {
     // Creando la clase Patinete
-    public class Patinete
+    public class Patinete : Vehiculo
     {
         public Patinete()
         {

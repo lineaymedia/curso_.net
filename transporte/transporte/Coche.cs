@@ -2,20 +2,10 @@
 namespace transporte
 {
     // Creando la clase Coche
-    public class Coche
+    public class Coche : Vehiculo
     {
         private int cilindrada;
 
-        public int Cilindrada
-        {
-            get
-            {
-                return this.cilindrada;
-            }
-            set
-            {
-                this.cilindrada = value;
-            }
-        }
+        public int Cilindrada { get => cilindrada; set => cilindrada = value; }
     }
 }
