@@ -8,23 +8,25 @@ namespace EjercicioJerarquiaClases
 {
    public class Vehiculo
     {
-       public enum ColorType { rojo, amarillo, verde, azul };
+       public enum Color { rojo, amarillo, verde, azul };
         private int numSerie;
-        private string v;
-
+       
+        public Color Color {get=> color ; set => color = value;}
         public int NumSerie { get => numSerie; set => numSerie = value; }
 
-        public  Vehiculo( int numSerie, ColorType type)
+        public  Vehiculo( int numSerie, Color color)
         {
+            this.NumSerie = numSerie;
+            this.Color = color;
            
-            NumSerie = numSerie;
             
         }
 
       
-        public virtual void imprimir()
+        public virtual string imprimir()
         {
-            Console.WriteLine("color={rojo}, numSerie={123}");
+           
+            return "El color es: "+Color+ " y el num. serie es " +NumSerie;
         }
 
            

@@ -11,9 +11,9 @@ namespace EjercicioJerarquiaClases
         private int cilindrada;
         public int Cilindrada { get => cilindrada; set => cilindrada = value; }
         
-        public override void imprimir()
+        public override string imprimir()
         {
-            Console.WriteLine("color={rojo}, numSerie={567878}, cilindrada{1400}");
+             return "La cilindrada es: "+Cilindrada;
         }
     }
 }

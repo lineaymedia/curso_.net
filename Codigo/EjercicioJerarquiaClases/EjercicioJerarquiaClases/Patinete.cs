@@ -8,9 +8,9 @@ namespace EjercicioJerarquiaClases
 {
     public class Patinete : Vehiculo
     {
-        public override void imprimir()
+        public override string imprimir()
         {
-            Console.WriteLine("color={azul},numSerie={987}");
+            return 
         }
     }
 }

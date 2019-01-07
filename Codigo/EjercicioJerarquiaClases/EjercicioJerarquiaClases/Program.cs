@@ -12,10 +12,12 @@ namespace EjercicioJerarquiaClases
         {
            public int SumaCilindrada;
 
-            Vehiculo vehiculo = new Vehiculo("Azul");
+            Vehiculo vehiculo = new Vehiculo(12345, Vehiculo.Color.azul);
+
+            
         
             Console.WriteLine("El vehículo tiene como número de serie:" + vehiculo.numSerie);
-            Vehiculo.imprimir("El vehículo es de color:" + vehiculo.ColorType);
+            Vehiculo.imprimir("El vehículo es de color:" + vehiculo.Color);
             Patinete patinete = new Patinete("azul", 6789);
             Console.WriteLine("El patinete es de color:" + patinete.Color + "y tiene de nº de serie" + patinete.NumSerie);
            Patinete.imprimir("El patinete es de color:" +patinete.Color + "y tiene de nº de serie"+patinete.NumSerie);

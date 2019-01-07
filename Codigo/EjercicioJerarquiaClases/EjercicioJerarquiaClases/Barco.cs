@@ -20,9 +20,9 @@ namespace EjercicioJerarquiaClases
             Eslora = eslora;
         }
 
-        public override void imprimir()
+        public override string imprimir()
         {
-            Console.WriteLine("color={azul},numSerie={345},numHelices={2}, eslora{2}");
+            return "El color es: "+Color+ " y el num. serie es " +NumSerie;
         }
     }
 }
