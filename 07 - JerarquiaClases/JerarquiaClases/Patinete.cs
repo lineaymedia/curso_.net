@@ -4,10 +4,14 @@ namespace JerarquiaClases
     class Patinete : Vehiculo
     {
 
-
-        public override void ImprimirVehiculo()
+        public Patinete (Color color, int numSerie) :base (color, numSerie)
         {
-            Console.WriteLine("Soy un patinete de color {0}, mi número de serie es {1}, mi nuevo color es {2}", color, numSerie, nuevocolor);
+
+        }
+
+        public override string Imprimir()
+        {
+            return "Soy un patinete de color " + ColorFabrica + ", mi número de serie es " + NumSerie;
         }
 
 

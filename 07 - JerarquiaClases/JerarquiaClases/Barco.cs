@@ -8,16 +8,20 @@ namespace JerarquiaClases
         private int eslora;
 
 
+        public int NumHelices { get => numHelices; set => numHelices = value; }
+        public int Eslora { get => eslora; set => eslora = value; }
 
-        public void DatosBarco(int numHelices, int eslora)
+
+        public Barco(Color color, int numSerie, int numHelices , int eslora) : base(color, numSerie)
         {
+
             this.numHelices = numHelices;
             this.eslora = eslora;
         }
 
-        public override void ImprimirVehiculo()
+        public override string Imprimir()
         {
-            Console.WriteLine("Soy un barco de color {0}, mi número de serie es {1}, mi nuevo color es {2} tengo {3} hélices y mi eslora es {4}", color, numSerie, nuevocolor, numHelices, eslora);
+            return "Soy un barco de color " + ColorFabrica + ", mi número de serie es " + NumSerie + ", tengo " + NumHelices + " hélices y mi eslora es " + Eslora;
         }
 
 

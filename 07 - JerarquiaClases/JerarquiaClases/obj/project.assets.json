@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/JerarquiaClases.csproj",
+      "projectUniqueName": "/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/07 - JerarquiaClases/JerarquiaClases/JerarquiaClases.csproj",
       "projectName": "JerarquiaClases",
-      "projectPath": "/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/JerarquiaClases.csproj",
+      "projectPath": "/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/07 - JerarquiaClases/JerarquiaClases/JerarquiaClases.csproj",
       "packagesPath": "/Users/eduardovazquez/.nuget/packages/",
-      "outputPath": "/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/JerarquiaClases/JerarquiaClases/obj",
+      "outputPath": "/Volumes/EXTERNA/EXINTRO/FORMACIÓN - CERTIFICACIÓN/CURSO .NET/Curso C# - Ejercicios/07 - Jerarquía de clases/07 - JerarquiaClases/JerarquiaClases/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

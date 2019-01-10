@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Drawing;
+
 namespace JerarquiaClases
 {
     class Coche : Vehiculo
@@ -7,15 +9,18 @@ namespace JerarquiaClases
         private int cilindrada;
 
 
-        public void Cilindrada(int cilindrada)
+        public int Cilindrada { get => cilindrada; set => cilindrada = value; }
+
+        public Coche(Color color, int numSerie, int cilindrada) : base(color, numSerie)
         {
+
             this.cilindrada = cilindrada;
         }
 
 
-        public override void ImprimirVehiculo()
+        public override string Imprimir()
         {
-            Console.WriteLine("Soy un coche de color {0}, mi número de serie es {1} y mi cilindrada es {2} y la suma de cilindradas es {3}", color, numSerie, cilindrada, sumacilindrada);
+            return "Soy un coche de color " + ColorFabrica + ", mi número de serie es " + NumSerie + " y mi cilindrada es " + cilindrada;
         }
 
 

@@ -4,9 +4,8 @@ namespace JerarquiaClases
     class Vehiculo
     {
 
-        private string color;
+        private Color color;
         private int numSerie;
-        public string nuevocolor;
 
         public enum Color
         {
@@ -15,23 +14,29 @@ namespace JerarquiaClases
             azul,
             amarillo,
             turquesa
-        };
+        }
 
-        public void DatosVehiculo(string color, int numSerie)
+        public Color ColorFabrica { get => color; set => color = value; }
+
+        public int NumSerie { get => numSerie; set => numSerie = value; }
+
+
+        public Vehiculo(Color color, int numSerie)
         {
             this.color = color;
             this.numSerie = numSerie;
         }
 
-        public void Pinta(string nuevocolor)
+
+        public void Pinta(Color nuevoColor)
         {
-            this.nuevocolor = nuevocolor;
+
+            this.color = nuevoColor;
         }
 
-        public virtual void ImprimirVehiculo()
+        public virtual string Imprimir()
         {
-
-            Console.WriteLine("Soy un vehículo de color {0}, mi número de serie es {1}, mi nuevo color es {2}", color, numSerie, nuevocolor);
+            return "Soy un vehículo de color " + ColorFabrica + ", mi número de serie es " + NumSerie;
         }
 
 

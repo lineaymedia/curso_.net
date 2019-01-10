@@ -8,50 +8,30 @@ namespace JerarquiaClases
 
         static void Main(string[] args)
         {
+            // Creamos dos coches
+            Coche ferrari = new Coche(Vehiculo.Color.rojo, 1234, 1200);
+            Coche porsche = new Coche(Vehiculo.Color.azul, 2345, 1400);
 
+            // Saco sus datos
+            Console.WriteLine("Soy de color " + ferrari.ColorFabrica + ", mi número de serie es " + ferrari.NumSerie + ", y mi cilindrada es " + ferrari.Cilindrada);
+            Console.WriteLine("Soy de color " + porsche.ColorFabrica + ", mi número de serie es " + porsche.NumSerie + ", y mi cilindrada es " + porsche.Cilindrada);
 
+            // Le cambio el color
+            ferrari.Pinta(Vehiculo.Color.verde);
+            porsche.Pinta(Vehiculo.Color.amarillo);
 
+            // Mostramos nuevo color
+            Console.WriteLine("Soy de color " + ferrari.ColorFabrica);
+            Console.WriteLine("Soy de color " + porsche.ColorFabrica);
 
-            Coche ferrari = new Coche();
-            ferrari.DatosVehiculo(color, 1000);
-            ferrari.Pinta("azul");
-            ferrari.Cililndrada(4000);
-            ferrari.ImprimirVehiculo();
-
-            Coche porsche = new Coche();
-            porsche.DatosVehiculo("rojo", 1000);
-            porsche.Pinta("azul");
-            porsche.Cililndrada(2000);
-            porsche.ImprimirVehiculo();
-
-
-            int c1 = porsche.Cilindrada;
-            int c2 = ferrari.Cilindrada;
-
-           
-
-                Console.WriteLine("La suma de cilindradas es: " + c1 + c2);
-
-
-
-            Barco christina = new Barco();
-            christina.DatosVehiculo("azul", 2000);
-            christina.Pinta("turquesa");
-            christina.DatosBarco(4, 99);
-            christina.ImprimirVehiculo();
-
-            Patinete tonyhawk = new Patinete();
-            tonyhawk.DatosVehiculo("verde", 500);
-            tonyhawk.Pinta("amarillo");
-            tonyhawk.ImprimirVehiculo();
-
-
-            Vehiculo[] vehiculos = { ferrari, porsche, christina, tonyhawk };
-
-            foreach (Vehiculo ..... in vehiculos)
+             int SumaCilindradas (int c1, int c2)
             {
-                Console.WriteLine(Vehiculo......);
+                return c1 + c2;
             }
+
+            Console.WriteLine("Suma cilindradas: " + SumaCilindradas (ferrari.Cilindrada, porsche.Cilindrada));
+
+
             Console.ReadKey();
         }
 
