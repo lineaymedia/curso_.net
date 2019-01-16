@@ -8,6 +8,8 @@ namespace PracticandoInterfaces
 {
    public interface ICalcularArea
     {
-       double Area();
+       void AreaCuadrado(double lado);
+       void AreaRectangulo(double altura, double lado);
+       void Imprimir();
     }
 }

@@ -18,11 +18,25 @@ namespace PracticandoInterfaces
            this.Altura = altura;
            this.Lado = lado;
         }
-        public double Area()
+        public double AreaRectangulo()
         {
             double area = Altura * Lado;
             return area;
         }
-       
+
+        public void AreaCuadrado(double lado)
+        {
+            
+        }
+
+        public void AreaRectangulo(double altura, double lado)
+        {
+            
+        }
+
+        public void Imprimir()
+        {
+            
+        }
     }
 }

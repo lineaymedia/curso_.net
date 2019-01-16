@@ -15,14 +15,30 @@ namespace PracticandoInterfaces
 
         public Cuadrado(double lado)
         {
-            Lado = lado;
-          
+            this.Lado = lado;          
         }
 
-       
-        public double Area()
+             
+
+
+        public double AreaCuadrado()
         {
             double area = lado * lado;
+            return area;
+        }
+        public void AreaCuadrado(double lado)
+        {
+
+        }
+
+        public void AreaRectangulo(double altura, double lado)
+        {
+            
+        }
+
+        public void Imprimir()
+        {
+            
         }
     }
 }

@@ -21,9 +21,14 @@ namespace PracticandoInterfaces
             Rectangulo rectangulo = new Rectangulo(  Lado, Altura);
             ICalcularArea calcular = new Rectangulo( Lado, Altura);
             Cuadrado cuadrado = new Cuadrado(Lado);
-
-            Console.WriteLine("El area del rectángulo es" + calcular.Area());
-            Console.WriteLine("Si tu figura es un cuadrado, su area es" + calcular.Area());
+            void Imprimir(){
+                Console.WriteLine("El area del rectángulo es" + calcular.AreaRectangulo());
+            }
+             void Imprimir()
+            {
+                Console.WriteLine("Si tu figura es un cuadrado, su area es" + calcular.AreaCuadrado());
+            }
+            
             Console.ReadLine();
         }
     }
