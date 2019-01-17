@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace EjercicioJerarquiaClases
 {
-    class Class1
+    class Persona : ICantante
     {
+        private string nombre;
+        private int edad;
+        public string Cantar()
+        {
+            return "Asturias patria querida";
+        }
+        public string Bailar()
+        {
+            return "cha cha cha";
+        }
     }
 }

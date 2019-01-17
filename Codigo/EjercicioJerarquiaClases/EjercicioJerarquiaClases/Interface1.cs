@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace EjercicioJerarquiaClases
 {
-    class Class4
+    interface ICantante
     {
+        string Cantar();
+        string Bailar();
     }
 }

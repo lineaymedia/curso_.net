@@ -14,10 +14,12 @@ namespace EjercicioJerarquiaClases
         public int NumHelices { get => numHelices; set => numHelices = value; }
         public int Eslora { get => eslora; set => eslora = value; }
 
-       public Barco (int numHelices,  int eslora)
+        public Barco(Color color, int numSerie, int numHelices, int eslora) : base( color,  numSerie);
         {
-            NumHelices = numHelices;
-            Eslora = eslora;
+         
+          
+            this.NumHelices = numHelices;
+            this.Eslora = eslora
         }
 
         public override string imprimir()

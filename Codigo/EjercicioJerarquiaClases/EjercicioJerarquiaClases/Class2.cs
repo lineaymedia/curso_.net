@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace EjercicioJerarquiaClases
 {
-    class Coche
+    class Canario : ICantante
     {
-        int[] arrCilindrada = { 1200, 1400, 1600, 2000 };
+        public string Cantar()
+        {
+            return "pio pio";
+        }
+        public string Bailar()
+        {
+            return "el baile de los pajaritos";
+        }
     }
 }
