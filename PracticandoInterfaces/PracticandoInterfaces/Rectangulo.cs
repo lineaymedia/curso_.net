@@ -6,37 +6,30 @@ using System.Threading.Tasks;
 
 namespace PracticandoInterfaces
 {
-    public class Rectangulo : ICalcularArea
+    public class Rectangulo : ICalcArea
     {
         private double lado;
         private double altura;
 
-        public double Altura { get => altura; set => altura = value; }
-        public double Lado { get => lado; set => lado = value; }
+        public double Altura    { get => altura; set => altura = value; }
+        public double Lado      { get => lado; set => lado = value; }
 
-        public  Rectangulo (double Altura, double Lado) {
-           this.Altura = altura;
-           this.Lado = lado;
-        }
-        public double AreaRectangulo()
+        public Rectangulo (double altura, double lado)
         {
-            double area = Altura * Lado;
-            return area;
+           Altura   = altura;
+           Lado     = lado;
         }
 
-        public void AreaCuadrado(double lado)
+        public double Area()
         {
-            
+            return altura * lado;            
         }
 
-        public void AreaRectangulo(double altura, double lado)
-        {
-            
-        }
+      
 
         public void Imprimir()
         {
-            
+            Console.WriteLine("el area del rectángulo es: " + Area());
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticandoInterfaces
 {
-  public  class Cuadrado : ICalcularArea 
+  public class Cuadrado : ICalcArea 
     {
         private double lado;
         
@@ -15,30 +15,22 @@ namespace PracticandoInterfaces
 
         public Cuadrado(double lado)
         {
-            this.Lado = lado;          
+            Lado = lado;          
         }
 
              
 
 
-        public double AreaCuadrado()
+        public double Area()
         {
-            double area = lado * lado;
-            return area;
-        }
-        public void AreaCuadrado(double lado)
-        {
-
-        }
-
-        public void AreaRectangulo(double altura, double lado)
-        {
+            return lado * lado;
             
         }
+       
 
         public void Imprimir()
         {
-            
+            Console.WriteLine("el area del cuadrado es: " + Area()); 
         }
     }
 }

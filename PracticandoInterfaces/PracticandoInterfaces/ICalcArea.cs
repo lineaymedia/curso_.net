@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace PracticandoInterfaces
 {
-   public interface ICalcularArea
+    interface ICalcArea
     {
-       void AreaCuadrado(double lado);
-       void AreaRectangulo(double altura, double lado);
-       void Imprimir();
+        double Area();
+        void Imprimir();
     }
 }

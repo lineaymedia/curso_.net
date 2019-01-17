@@ -12,22 +12,15 @@ namespace PracticandoInterfaces
         {
 
             Console.WriteLine("Ingresa el valor de la base del rectángulo o del lado del cuadrado");
-            double Lado;
+            double Lado = double.Parse(Console.ReadLine());
             Console.WriteLine("Si es un rectángulo ingresa el valor de la altura, sino escribe 1");
-            double Altura;
-            
-           
-           
-            Rectangulo rectangulo = new Rectangulo(  Lado, Altura);
-            ICalcularArea calcular = new Rectangulo( Lado, Altura);
+            double Altura = double.Parse(Console.ReadLine()); 
+                                  
+            Rectangulo rectangulo = new Rectangulo(Altura, Lado);           
             Cuadrado cuadrado = new Cuadrado(Lado);
-            void Imprimir(){
-                Console.WriteLine("El area del rectángulo es" + calcular.AreaRectangulo());
-            }
-             void Imprimir()
-            {
-                Console.WriteLine("Si tu figura es un cuadrado, su area es" + calcular.AreaCuadrado());
-            }
+
+            cuadrado.Imprimir();
+            rectangulo.Imprimir();
             
             Console.ReadLine();
         }

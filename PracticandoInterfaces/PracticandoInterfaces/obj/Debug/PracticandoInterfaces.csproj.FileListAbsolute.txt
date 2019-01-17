@@ -1,2 +1,9 @@
 C:\Users\dcm\source\repos\PracticandoInterfaces\PracticandoInterfaces\obj\Debug\PracticandoInterfaces.csprojAssemblyReference.cache
 C:\Users\dcm\source\repos\PracticandoInterfaces\PracticandoInterfaces\obj\Debug\PracticandoInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\AlfaLogicSystems\Documents\GitHub\curso_.net\PracticandoInterfaces\PracticandoInterfaces\obj\Debug\PracticandoInterfaces.csprojAssemblyReference.cache
+C:\Users\AlfaLogicSystems\Documents\GitHub\curso_.net\PracticandoInterfaces\PracticandoInterfaces\obj\Debug\PracticandoInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\AlfaLogicSystems\Documents\GitHub\curso_.net\PracticandoInterfaces\PracticandoInterfaces\bin\Debug\PracticandoInterfaces.exe.config
+C:\Users\AlfaLogicSystems\Documents\GitHub\curso_.net\PracticandoInterfaces\PracticandoInterfaces\bin\Debug\PracticandoInterfaces.exe
+C:\Users\AlfaLogicSystems\Documents\GitHub\curso_.net\PracticandoInterfaces\PracticandoInterfaces\bin\Debug\PracticandoInterfaces.pdb
+C:\Users\AlfaLogicSystems\Documents\GitHub\curso_.net\PracticandoInterfaces\PracticandoInterfaces\obj\Debug\PracticandoInterfaces.exe
+C:\Users\AlfaLogicSystems\Documents\GitHub\curso_.net\PracticandoInterfaces\PracticandoInterfaces\obj\Debug\PracticandoInterfaces.pdb
