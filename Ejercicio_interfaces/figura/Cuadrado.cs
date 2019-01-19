@@ -14,6 +14,14 @@ namespace figura
         public void area()
         {
             Console.WriteLine("Area del cuadrado: {0}", lado);
+            if (lado < 10)
+            {
+                Console.WriteLine("Es un cuadrado grande");
+            }
+            else
+            {
+                Console.WriteLine("El cuadrado es pequeño");
+            }
         }
     }
 }
